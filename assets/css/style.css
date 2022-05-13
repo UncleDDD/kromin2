@@ -1,0 +1,198 @@
+/******* GENERAL *******/
+
+body {
+	font-family: 'Sora', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	
+	background-color: #1F2429;
+}
+
+/******* HEADER *******/
+
+header {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 10px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+header img {
+	width: 100px;
+}
+
+header p {
+	font-size: 13px;
+	color: #fff;
+}
+
+nav li a {
+	background-color: #29FE88;
+	color: #1F2429;
+	padding: 5px 15PX;
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 800;
+}
+
+nav li a:hover {
+	box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.5);
+}
+
+/******* HOME CONTAINER1 *******/
+
+.container1 {
+	padding: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+h1 {
+	font-size: 40px;
+	color: #29FE88;
+	font-weight: bold;
+	padding-bottom: 40px;
+}
+
+h2 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	padding-top: 40px;
+}
+
+h3 {
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+form {
+	background-color: #18232E;
+	padding: 50px 100px;
+	border-radius: 10px;
+}
+
+form input {
+	padding: 5px;
+	margin: 10px;
+}
+
+form button {
+	background-color: #29FE88;
+	color: #1F2429;
+	padding: 5px 50px;
+	font-weight: bold;
+	border-radius: 5px;
+	border-width: 0px;
+}
+
+form button:hover {
+	box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.5);
+}
+
+/******* HOME CONTAINER2 *******/
+
+.container2 {
+	background-color: #4F33CC;
+	height: 450px;
+}
+
+.boxes {
+	display: flex;
+}
+
+.box {
+	background-color: #0F171F;
+	flex: 1 1 33%;
+	height: 200px;
+	margin: 2%;
+	border-radius: 10px;
+}
+
+.box:hover {
+	box-shadow: 0px 0px 30px 5px rgba(255, 255, 255, 0.5);
+  }
+
+.box h4 {
+	color: #fff;
+	font-size: 30px;
+    padding-top: 2.3em;
+    padding-bottom: 2.2em;
+
+}
+
+.container2 p {
+	color: #29FE88;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/******* HOME STICKYBAR *******/
+
+.bottom {
+	background-color: #29FE88;
+	text-align: center;
+	padding: 20px;
+	position: sticky;
+	bottom: 0;
+}
+
+.bottom p {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/******* INVITE FRIENDS *******/
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+	justify-items: center;
+	gap: 30px;
+	padding-top: 70px;
+	padding-bottom: 20px;
+	margin: 30px;
+  }
+
+.grid img:hover {
+	box-shadow: 0px 0px 30px 5px rgba(255, 255, 255, 0.5);
+}
+
+.grid img {
+	width: 100%;
+	border-radius: 20px;
+  }
+
+/******* INVITE FRIENDS STICKY BAR *******/
+.bottom2 {
+	background-color: #4F33CC;
+	text-align: center;
+	padding: 30px;
+	position: sticky;
+	bottom: 0;
+}
+
+.bottom2 p {
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/******* FOOTER *******/
+
+footer {
+	color: #fff;
+	font-size: 10px;
+	padding: 15px;
+}
